@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Michela Rossi</title>
+    <link rel="stylesheet" href="style-en.css">
+</head>
+<body>
+    <header>
+        <!-- Fixed header for "Michela Rossi" -->
+        <div class="fixed-header">
+            <h1>Michela Rossi</h1>
+        </div>
+        
+        <!-- Scrollable part with image and quote -->
+        <div class="scrollable-header">
+           
+            <nav>
+                <div>
+                    <img src="./foto/fotox.JPG" class="profile-img-large" alt="Michela Rossi">
+                </div>
+            </nav>
+            <p>The only way to do great work is to love what you do.</p>
+            <p>– Steve Jobs</p>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#about-me">About Me</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#hobbies">Hobbies</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="about-me">
+        <h2>About Me</h2>
+        <p>
+            <img src="./foto/prsù.png" class="profile-img"> Michela Rossi
+        </p>
+        <p>
+            <img src="./foto/cmp.png" class="profile-img"> September 26, 2001.
+        </p>
+        <p>
+            <img src="./foto/luogo.jpg" class="profile-img"> Alatri (FR)
+        </p>
+        <p>
+            I like to set new goals for myself and try to achieve them, both independently and with someone by my side.
+        </p>
+        <p>
+            I am always (or almost!) cheerful and positive; I believe every challenge can have a creative solution.
+        </p>
+        <p>
+            In my free time, I enjoy reading, studying disciplines outside my field, or deepening topics I have already studied.
+        </p>
+    </section>
+    
+    <section id="education">
+        <h2>Education</h2>
+        <ul>
+            <li>Currently enrolled in the Master's Degree in Applied Mathematics at the University of Rome Tre</li>
+            <li>[2024] Bachelor's Degree in Mathematics from the University of Rome - Tor Vergata</li>
+            <span class="thesis-label">[Thesis]:</span> 
+            <span class="thesis-links">
+                <a href="./Documents/tesi (1).pdf" target="_blank" class="thesis-title">Subdifferential Method and Applications</a>
+                <a href="./Documents/discorso_tesi.pdf" target="_blank" class="abstract-link">Abstract</a>
+            </span>
+            <li>[2020] Diploma from Luigi Pietrobono Scientific High School - Alatri</li> 
+        </ul>
+    </section>
+    
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Mathematical Analysis</li>
+            <li>Numerical Analysis</li>
+            <li>Basic Cryptography</li>
+            <li>Basic Geometry</li>
+            <li>Mathematical Logic</li>
+            <li>C Programming</li>
+            <li>Matlab</li>
+            <li>AMPL</li>
+            <li>HTML, CSS (Basic)</li>
+        </ul>
+    </section>
+    
+    <section id="hobbies">
+        <h2>Hobbies</h2>
+        <ul> 
+            <li>Flute</li> 
+            <li>Reading</li> 
+            <li>Studying</li>
+        </ul>
+    </section>
+    
+    <section id="contact">
+        <h2>Contact Me!</h2>
+        <p><strong>
+            <img src="./foto/em.JPG" class="profile-img">   
+            Email:</strong> <a href="mailto:michela.rossi01@yahoo.com">michela.rossi01@yahoo.com</a>
+        </p>
+        <p><strong>
+            <img src="./foto/in.JPG" class="profile-img">  
+            LinkedIn:</strong> 
+            <a href="https://www.linkedin.com/in/michela-rossi-a09a22321/" target="_blank">Michela Rossi</a>
+        </p>
+        <p><strong> 
+            <img src="./foto/git.JPG" class="profile-img">  
+            GitHub:</strong>
+            <a href="https://github.com/redsmich" target="_blank">redsmich</a>
+        </p>
+        
+        <!-- Form start with Formspree -->
+        <form action="https://formspree.io/f/mwpezplb" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <!-- Submit button -->
+            <button type="submit">Send</button>
+        </form>
+        <!-- Form end -->
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Michela Rossi. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
